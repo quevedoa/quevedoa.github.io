@@ -1,0 +1,46 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-family: "Roboto Mono", monospace
+}
+
+#name {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+}
+
+#me {
+    padding-top: 10%;
+    text-align: center;
+}
+
+#about {
+    padding: 10%;
+    padding-top: 15%;
+}
+
+.w3-row-padding img {
+margin-bottom: 12px
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {
+width: 150px;
+background: #222;
+}
+
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {
+margin-left: 150px
+}
+
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {
+#main {
+    margin-left: 0
+}
+}
